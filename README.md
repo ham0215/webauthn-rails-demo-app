@@ -41,6 +41,15 @@ $ bundle exec rails s
 
 Now you can visit http://localhost:3000 to play with the demo site.
 
+#### Setup and running on Docker
+
+```
+$ docker-compose build
+$ docker-compose up -d
+```
+
+Now you can visit http://localhost:3099 to play with the demo site.
+
 ## Development
 
 ### Gem Update Policy
